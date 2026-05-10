@@ -23,12 +23,9 @@ export default function Sidebar({ children, infoContent, onCentre }) {
         <div className="h-full w-80 bg-slate-950/95 backdrop-blur-md border-r border-slate-800/60 overflow-y-auto p-3 space-y-2">
           <div className="mb-4 px-1 flex items-center justify-between">
             <div className="flex flex-col gap-1">
-              <img
-                src="/logo.webp"
-                alt="Logo"
-                className="h-10 w-auto object-contain"
-                style={{ filter: 'brightness(0) invert(1)' }}
-              />
+              <span className="text-white font-bold text-xl tracking-widest uppercase font-mono">
+                BELFAST 3D
+              </span>
               <p className="text-[10px] font-mono text-slate-500 uppercase tracking-wider">
                 City Intelligence Platform
               </p>
